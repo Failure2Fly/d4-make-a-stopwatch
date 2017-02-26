@@ -4,3 +4,21 @@
 img {
     width: 100%;
 }
+body {
+    text-align: center;
+    margin-top: 200px;
+}
+#timer {
+    font-family: lato;
+    font-size: 100px;
+    font-weight: 300px;
+    padding: 30px;
+    margin: 40px;
+    background-color: black;
+}
+#start {
+    font-size: 40px;
+    font-family: monospace;
+    background-color: blue;
+    color: white;
+}
