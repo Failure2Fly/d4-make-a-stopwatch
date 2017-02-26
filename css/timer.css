@@ -1,4 +1,4 @@
-*{
+/**{
     box-sizing: border-box;
 }
 img {
@@ -21,4 +21,42 @@ body {
     font-family: monospace;
     background-color: blue;
     color: white;
+}*/
+
+
+body {
+	background-color: #e6e6e6;
+}
+h1 {
+	font-size: 4.5em;
+    text-align: center;
+}
+
+button {
+	font-size: 30px;
+	width: 140px;
+	height: 60px;
+	border-radius: 5px;
+}
+
+#startPause {
+   	background-color: green;
+	border-color: green;
+}
+
+#reset {
+	background-color: gray;
+	border-color: gray;
+}
+
+.container {
+	margin: auto;
+	margin-top: 200px;
+	width: 400px;
+	height: 400px;
+}
+#controls {
+	margin-left: 7px;
+	width: 310px;
+	height:70px;
 }

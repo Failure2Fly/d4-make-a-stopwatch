@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html>
   <head>
     <title>Stopwatch</title>
@@ -12,7 +12,7 @@
 <body>
 
     
-      <button type="button" id="start" onclick="startTimer">
+      <button type="button" id="start" onclick="startPause">
           <div id="timer" class="well">
             00:00:00
           </div>
@@ -21,7 +21,24 @@
 
     <script src="timer.js"></script>
 </body>
-</html>
+</html>-->
 
+
+
+<!DOCTYPE html>
+<html>
+    <head>  
+    </head>
+    <body>
+        <div class="container">
+            <h1><p id="output"><b>00:00:00</b></p></h1>
+        <div id="controls" align="center">
+	        <button id= "startPause" onclick="startPause()"><b id="start">Start</b></button>
+	        <button onclick="reset()" id="reset"><b id="reset">Reset</b></button>
+        </div>
+        </div>
+        <script src="timer.js"></script>
+    </body>
+</html>
 
 
